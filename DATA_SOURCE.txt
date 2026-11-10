@@ -1,0 +1,10 @@
+DATA PROVENANCE AND CITATION
+Dataset: Online Retail (UCI Machine Learning Repository), dataset ID 352
+Official page: https://archive.ics.uci.edu/dataset/352/online-retail
+DOI: https://doi.org/10.24432/C5BW33
+Citation: Chen, D. (2015). Online Retail [Dataset]. UCI Machine Learning Repository.
+License: Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+UCI reports 541,909 historical transaction instances from a UK online retailer, spanning 2010-12-01 to 2011-12-09. Currency is GBP. The workbook is fetched from the official UCI archive in the notebook and is not bundled in this ZIP.
+
+Limitations: one retailer, historical data, not live/current market data, not Pakistani retail data. Returns/cancellations are excluded from positive-sales KPIs.

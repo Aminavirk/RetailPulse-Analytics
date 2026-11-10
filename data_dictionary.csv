@@ -1,0 +1,12 @@
+Field,Type,Definition
+InvoiceNo,Original,Invoice number; invoices beginning with C indicate cancellations.
+StockCode,Original,Product/item code.
+Description,Original,Product description.
+Quantity,Original,Units on invoice line; negative quantities can indicate returns.
+InvoiceDate,Original,Invoice date and time.
+UnitPrice,Original,Price per unit in GBP.
+CustomerID,Original,Customer identifier; can be missing.
+Country,Original,Customer country.
+Revenue,Derived,"Quantity multiplied by UnitPrice, in GBP."
+Month,Derived,InvoiceDate grouped as YYYY-MM.
+Anonymous,Derived,"Placeholder for missing customer ID; retained for total sales, excluded from customer-level metrics."
